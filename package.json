@@ -8,7 +8,7 @@
   "keywords": [
     "map"
   ],
-  "author": "essdot <justinsippel@gmail.com>",
+  "author": "sdot <justinsippel@gmail.com>",
   "license": "BSD",
   "devDependencies": {
     "es6-shim": "^0.32.2",
