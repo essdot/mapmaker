@@ -1,7 +1,7 @@
 require('es6-shim')
 
 const test = require('tape')
-const mapmaker = require('./index')
+const mapmaker = require('./')
 
 test('returns a map', function(t) {
   const map = mapmaker({abc: 'def', 123: 456})
