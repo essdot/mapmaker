@@ -1,5 +1,3 @@
-require('es6-collections')
-
 module.exports = mapmaker
 
 function mapmaker(mapSpec) {

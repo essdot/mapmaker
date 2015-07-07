@@ -1,5 +1,3 @@
-require('es6-collections')
-
 const test = require('tape')
 const mapmaker = require('./index')
 
