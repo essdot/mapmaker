@@ -13,3 +13,4 @@ new Map([['key', 'val'], ['greeting', 'hi']])
 
 // mapmaker
 mapmaker({key: 'val', greeting: 'hi'})
+```
