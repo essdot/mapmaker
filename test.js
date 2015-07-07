@@ -1,3 +1,5 @@
+require('es6-shim')
+
 const test = require('tape')
 const mapmaker = require('./index')
 
@@ -22,6 +24,22 @@ test('returns a map', function(t) {
 	t.end()
 })
 
+test('works for iterables', function(t) {
+	const map = mapmaker({abc: 'def', 123: 456})
+	const mapmap = mapmaker(map)
+
+	const setmap = mapmaker(new Set([
+		['abc', 'def'], [123, 456]
+	]))
+
+	t.ok(map instanceof Map)
+	t.ok(mapmap instanceof Map)
+	t.equal(mapmap.size, 2)
+	t.ok(setmap instanceof Map)
+	t.equal(mapmap.size, 2)
+
+	t.end()
+})
 
 test('TypeError for non-object', function(t) {
 	t.throws(mapmaker.bind(null, 2), TypeError)

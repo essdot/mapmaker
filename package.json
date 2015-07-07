@@ -2,12 +2,16 @@
   "name": "mapmaker",
   "version": "2.0.1",
   "description": "Make maps",
+  "scripts": {
+    "test": "node test.js"
+  },
   "keywords": [
     "map"
   ],
   "author": "essdot <justinsippel@gmail.com>",
   "license": "BSD",
   "devDependencies": {
+    "es6-shim": "^0.32.2",
     "tape": "^4.0.0"
   }
 }
