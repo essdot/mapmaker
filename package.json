@@ -1,7 +1,7 @@
 {
   "name": "mapmaker",
   "version": "2.1.5",
-  "description": "Make maps",
+  "description": "Make Maps",
   "scripts": {
     "test": "node test.js"
   },
