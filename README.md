@@ -1,4 +1,4 @@
-mapmaker - make maps
+mapmaker - make Maps
 ====
 
 `mapmaker` gives you a nicer interface for making `Map`s, so you can pass a plain object instead of the arrays of 2 the default implementation accepts.
