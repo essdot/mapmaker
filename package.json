@@ -1,0 +1,13 @@
+{
+  "name": "mapmaker",
+  "version": "1.0.0",
+  "description": "Make maps",
+  "keywords": [
+    "map"
+  ],
+  "author": "essdot <justinsippel@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
